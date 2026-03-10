@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T14:30:38 GMT+07:00" name="SauceDemo_Regression_Suite" finished-at="2026-03-10T14:30:57 GMT+07:00" duration-ms="18857">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.testLoginEmptyUsername()[pri:0, instance:dtm.LoginTest@3427b02d]" name="testLoginEmptyUsername" class="dtm.LoginTest"/>
+        <method signature="LoginTest.testLoginLockedUser()[pri:0, instance:dtm.LoginTest@3427b02d]" name="testLoginLockedUser" class="dtm.LoginTest"/>
+        <method signature="LoginTest.testLoginSuccess()[pri:0, instance:dtm.LoginTest@3427b02d]" name="testLoginSuccess" class="dtm.LoginTest"/>
+        <method signature="LoginTest.testLoginWrongPassword()[pri:0, instance:dtm.LoginTest@3427b02d]" name="testLoginWrongPassword" class="dtm.LoginTest"/>
+        <method signature="CartTest.testAddItemToCart()[pri:0, instance:dtm.CartTest@8f4ea7c]" name="testAddItemToCart" class="dtm.CartTest"/>
+        <method signature="CartTest.testAddTwoItemsToCart()[pri:0, instance:dtm.CartTest@8f4ea7c]" name="testAddTwoItemsToCart" class="dtm.CartTest"/>
+        <method signature="CartTest.testCartPageShowsItems()[pri:0, instance:dtm.CartTest@8f4ea7c]" name="testCartPageShowsItems" class="dtm.CartTest"/>
+        <method signature="CartTest.testRemoveItemFromCart()[pri:0, instance:dtm.CartTest@8f4ea7c]" name="testRemoveItemFromCart" class="dtm.CartTest"/>
+        <method signature="CheckoutTest.testCheckoutButtonNavigates()[pri:0, instance:dtm.CheckoutTest@77847718]" name="testCheckoutButtonNavigates" class="dtm.CheckoutTest"/>
+        <method signature="CheckoutTest.testCheckoutEmptyFirstName()[pri:0, instance:dtm.CheckoutTest@77847718]" name="testCheckoutEmptyFirstName" class="dtm.CheckoutTest"/>
+        <method signature="CheckoutTest.testCompleteOrder()[pri:0, instance:dtm.CheckoutTest@77847718]" name="testCompleteOrder" class="dtm.CheckoutTest"/>
+        <method signature="CheckoutTest.testFillCustomerInfo()[pri:0, instance:dtm.CheckoutTest@77847718]" name="testFillCustomerInfo" class="dtm.CheckoutTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.testLoginSuccess()[pri:0, instance:dtm.LoginTest@3427b02d]" name="testLoginSuccess" class="dtm.LoginTest"/>
+        <method signature="CartTest.testAddItemToCart()[pri:0, instance:dtm.CartTest@8f4ea7c]" name="testAddItemToCart" class="dtm.CartTest"/>
+        <method signature="CheckoutTest.testCheckoutButtonNavigates()[pri:0, instance:dtm.CheckoutTest@77847718]" name="testCheckoutButtonNavigates" class="dtm.CheckoutTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginTest.testLoginLockedUser()[pri:0, instance:dtm.LoginTest@3427b02d]" name="testLoginLockedUser" class="dtm.LoginTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2026-03-10T14:30:38 GMT+07:00" name="Login Tests - Regression" finished-at="2026-03-10T14:30:48 GMT+07:00" duration-ms="9672">
+      <class name="dtm.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.LoginTest@3427b02d]" started-at="2026-03-10T14:30:38 GMT+07:00" name="setUp" finished-at="2026-03-10T14:30:41 GMT+07:00" duration-ms="2391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginEmptyUsername()[pri:0, instance:dtm.LoginTest@3427b02d]" started-at="2026-03-10T14:30:41 GMT+07:00" name="testLoginEmptyUsername" description="[regression] Bo trong username" finished-at="2026-03-10T14:30:41 GMT+07:00" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmptyUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@3427b02d]" started-at="2026-03-10T14:30:41 GMT+07:00" name="tearDown" finished-at="2026-03-10T14:30:41 GMT+07:00" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.LoginTest@3427b02d]" started-at="2026-03-10T14:30:41 GMT+07:00" name="setUp" finished-at="2026-03-10T14:30:43 GMT+07:00" duration-ms="1698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginLockedUser()[pri:0, instance:dtm.LoginTest@3427b02d]" started-at="2026-03-10T14:30:43 GMT+07:00" name="testLoginLockedUser" description="[sanity] locked_out_user" finished-at="2026-03-10T14:30:43 GMT+07:00" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLockedUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@3427b02d]" started-at="2026-03-10T14:30:43 GMT+07:00" name="tearDown" finished-at="2026-03-10T14:30:44 GMT+07:00" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.LoginTest@3427b02d]" started-at="2026-03-10T14:30:44 GMT+07:00" name="setUp" finished-at="2026-03-10T14:30:45 GMT+07:00" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginSuccess()[pri:0, instance:dtm.LoginTest@3427b02d]" started-at="2026-03-10T14:30:45 GMT+07:00" name="testLoginSuccess" description="[smoke] Dang nhap hop le" finished-at="2026-03-10T14:30:46 GMT+07:00" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@3427b02d]" started-at="2026-03-10T14:30:46 GMT+07:00" name="tearDown" finished-at="2026-03-10T14:30:46 GMT+07:00" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.LoginTest@3427b02d]" started-at="2026-03-10T14:30:46 GMT+07:00" name="setUp" finished-at="2026-03-10T14:30:47 GMT+07:00" duration-ms="1026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWrongPassword()[pri:0, instance:dtm.LoginTest@3427b02d]" started-at="2026-03-10T14:30:47 GMT+07:00" name="testLoginWrongPassword" description="[regression] Dang nhap sai mat khau" finished-at="2026-03-10T14:30:48 GMT+07:00" duration-ms="974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWrongPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@3427b02d]" started-at="2026-03-10T14:30:48 GMT+07:00" name="tearDown" finished-at="2026-03-10T14:30:48 GMT+07:00" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.LoginTest -->
+    </test> <!-- Login Tests - Regression -->
+    <test started-at="2026-03-10T14:30:38 GMT+07:00" name="Cart Tests - Regression" finished-at="2026-03-10T14:30:49 GMT+07:00" duration-ms="10468">
+      <class name="dtm.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.CartTest@8f4ea7c]" started-at="2026-03-10T14:30:38 GMT+07:00" name="setUp" finished-at="2026-03-10T14:30:41 GMT+07:00" duration-ms="2866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddItemToCart()[pri:0, instance:dtm.CartTest@8f4ea7c]" started-at="2026-03-10T14:30:41 GMT+07:00" name="testAddItemToCart" description="[smoke] Them 1 san pham - badge = 1" finished-at="2026-03-10T14:30:41 GMT+07:00" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.CartTest@8f4ea7c]" started-at="2026-03-10T14:30:41 GMT+07:00" name="tearDown" finished-at="2026-03-10T14:30:42 GMT+07:00" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.CartTest@8f4ea7c]" started-at="2026-03-10T14:30:42 GMT+07:00" name="setUp" finished-at="2026-03-10T14:30:44 GMT+07:00" duration-ms="1968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddTwoItemsToCart()[pri:0, instance:dtm.CartTest@8f4ea7c]" started-at="2026-03-10T14:30:44 GMT+07:00" name="testAddTwoItemsToCart" description="[regression] Them 2 san pham - badge = 2" finished-at="2026-03-10T14:30:44 GMT+07:00" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTwoItemsToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.CartTest@8f4ea7c]" started-at="2026-03-10T14:30:44 GMT+07:00" name="tearDown" finished-at="2026-03-10T14:30:44 GMT+07:00" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.CartTest@8f4ea7c]" started-at="2026-03-10T14:30:44 GMT+07:00" name="setUp" finished-at="2026-03-10T14:30:46 GMT+07:00" duration-ms="2118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartPageShowsItems()[pri:0, instance:dtm.CartTest@8f4ea7c]" started-at="2026-03-10T14:30:46 GMT+07:00" name="testCartPageShowsItems" description="[regression] Trang gio hang hien san pham" finished-at="2026-03-10T14:30:46 GMT+07:00" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartPageShowsItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.CartTest@8f4ea7c]" started-at="2026-03-10T14:30:46 GMT+07:00" name="tearDown" finished-at="2026-03-10T14:30:47 GMT+07:00" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.CartTest@8f4ea7c]" started-at="2026-03-10T14:30:47 GMT+07:00" name="setUp" finished-at="2026-03-10T14:30:49 GMT+07:00" duration-ms="1938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveItemFromCart()[pri:0, instance:dtm.CartTest@8f4ea7c]" started-at="2026-03-10T14:30:49 GMT+07:00" name="testRemoveItemFromCart" description="[regression] Xoa san pham - badge bien mat" finished-at="2026-03-10T14:30:49 GMT+07:00" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveItemFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.CartTest@8f4ea7c]" started-at="2026-03-10T14:30:49 GMT+07:00" name="tearDown" finished-at="2026-03-10T14:30:49 GMT+07:00" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.CartTest -->
+    </test> <!-- Cart Tests - Regression -->
+    <test started-at="2026-03-10T14:30:48 GMT+07:00" name="Checkout Tests - Regression" finished-at="2026-03-10T14:30:57 GMT+07:00" duration-ms="9164">
+      <class name="dtm.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.CheckoutTest@77847718]" started-at="2026-03-10T14:30:48 GMT+07:00" name="setUp" finished-at="2026-03-10T14:30:50 GMT+07:00" duration-ms="1958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutButtonNavigates()[pri:0, instance:dtm.CheckoutTest@77847718]" started-at="2026-03-10T14:30:50 GMT+07:00" name="testCheckoutButtonNavigates" description="[smoke] Click Checkout - den checkout-step-one" finished-at="2026-03-10T14:30:50 GMT+07:00" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutButtonNavigates -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.CheckoutTest@77847718]" started-at="2026-03-10T14:30:50 GMT+07:00" name="tearDown" finished-at="2026-03-10T14:30:50 GMT+07:00" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.CheckoutTest@77847718]" started-at="2026-03-10T14:30:50 GMT+07:00" name="setUp" finished-at="2026-03-10T14:30:52 GMT+07:00" duration-ms="1888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutEmptyFirstName()[pri:0, instance:dtm.CheckoutTest@77847718]" started-at="2026-03-10T14:30:52 GMT+07:00" name="testCheckoutEmptyFirstName" description="[regression] Bo trong first name - loi" finished-at="2026-03-10T14:30:53 GMT+07:00" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutEmptyFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.CheckoutTest@77847718]" started-at="2026-03-10T14:30:53 GMT+07:00" name="tearDown" finished-at="2026-03-10T14:30:53 GMT+07:00" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.CheckoutTest@77847718]" started-at="2026-03-10T14:30:53 GMT+07:00" name="setUp" finished-at="2026-03-10T14:30:55 GMT+07:00" duration-ms="1880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCompleteOrder()[pri:0, instance:dtm.CheckoutTest@77847718]" started-at="2026-03-10T14:30:55 GMT+07:00" name="testCompleteOrder" description="[regression] Hoan tat don hang" finished-at="2026-03-10T14:30:55 GMT+07:00" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.CheckoutTest@77847718]" started-at="2026-03-10T14:30:55 GMT+07:00" name="tearDown" finished-at="2026-03-10T14:30:55 GMT+07:00" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.CheckoutTest@77847718]" started-at="2026-03-10T14:30:55 GMT+07:00" name="setUp" finished-at="2026-03-10T14:30:57 GMT+07:00" duration-ms="1658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFillCustomerInfo()[pri:0, instance:dtm.CheckoutTest@77847718]" started-at="2026-03-10T14:30:57 GMT+07:00" name="testFillCustomerInfo" description="[regression] Dien thong tin - den buoc 2" finished-at="2026-03-10T14:30:57 GMT+07:00" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillCustomerInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.CheckoutTest@77847718]" started-at="2026-03-10T14:30:57 GMT+07:00" name="tearDown" finished-at="2026-03-10T14:30:57 GMT+07:00" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.CheckoutTest -->
+    </test> <!-- Checkout Tests - Regression -->
+  </suite> <!-- SauceDemo_Regression_Suite -->
+</testng-results>
